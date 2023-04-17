@@ -1,0 +1,19 @@
+{
+    "name": "beratt087/php-database-class",
+    "description": "A useful database class for PHP.",
+    "autoload": {
+        "psr-4": {
+            "beratt087\\Database\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Berat",
+            "email": "beratyildiz087@icloud.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
