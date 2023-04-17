@@ -13,12 +13,15 @@ $data = $db->table('accounts')->get();
 // get a data with where condition
 $data = $db->table('accounts')->where('id', '1')->first();
 
+// data will be return as stdClass
+// for access to data: $data->age;
+
 // update data (returns affected row count)
 $data = $db->table('accounts')->update([
     'age' => 21
 ]);
 
-// insert data (returns boolean)
+// insert data (returns inserted row count)
 $data = $db->table('accounts')->insert([
     'username' => 'berat',
     'age' => 19
