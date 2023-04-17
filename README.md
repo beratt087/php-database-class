@@ -34,7 +34,7 @@ Here is a simple example of how to use the class:
     $data = $db->table('accounts')->where('id', '1')->first();
     
     // data will be return as stdClass
-    // for access data: $data->age;
+    // for access to data: $data->age;
     
     // update data (returns affected row count)
     $data = $db->table('accounts')->update([
