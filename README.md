@@ -41,7 +41,7 @@ Here is a simple example of how to use the class:
         'age' => 21
     ]);
     
-    // insert data (returns boolean)
+    // insert data (returns inserted row count)
     $data = $db->table('accounts')->insert([
         'username' => 'berat',
         'age' => 19
