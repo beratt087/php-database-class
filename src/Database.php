@@ -144,7 +144,7 @@ class Database
      * @param array $values
      * @return bool
      */
-    public function insert(array $values): bool
+    public function insert(array $values): int
     {
         self::$queryFormat = 'insert';
         $this->data = $values;
